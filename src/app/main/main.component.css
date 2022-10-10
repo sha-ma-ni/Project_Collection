@@ -1,0 +1,34 @@
+#main {
+  //background-color: rgb(110, 243, 188);
+  padding: 1%;
+  height: 624px;
+
+
+
+
+}
+
+#row {
+  display: flex;
+}
+#left {
+  float: left;
+  position: absolute;
+  width: 30%;
+  height: 600px;
+  left: 2%;
+
+}
+#center {
+  position: absolute;
+  width: 30%;
+  height: 600px;
+  left: 35%;
+}
+
+#right {
+  position: absolute;
+  width: 30%;
+  height: 600px;
+  left: 68%;
+  }

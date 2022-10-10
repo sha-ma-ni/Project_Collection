@@ -1,0 +1,23 @@
+#title {
+  background-color: antiquewhite;
+  text-align: center;
+  width: 92%;
+}
+#row {
+  display: flex;
+}
+#image {
+  background-color: antiquewhite;
+}
+#image_container {
+  background-color: antiquewhite;
+  width: 4%;
+  padding-top: 0.5%;
+  padding-left: 1%;
+}
+#login_icon {
+  background-color: antiquewhite;
+  width: 4%;
+  padding-top: 0.5%;
+  padding-left: 2%;
+}

@@ -1,0 +1,15 @@
+#button1, #button2, #button3 {
+
+//text-align: center;
+  width: 300px;
+  height: 60px;
+  left: 45%;
+  top: 60px;
+
+  background: #1C365E;
+  border-radius: 5px;
+}
+#title {
+  text-align: center;
+  padding-top: 4%;
+}
