@@ -17,6 +17,7 @@
   width: 30%;
   height: 600px;
   left: 2%;
+  border-radius: 5px;
 
 }
 #center {
@@ -24,6 +25,7 @@
   width: 30%;
   height: 600px;
   left: 35%;
+  border-radius: 5px;
 }
 
 #right {
@@ -31,4 +33,5 @@
   width: 30%;
   height: 600px;
   left: 68%;
+  border-radius: 5px;
   }

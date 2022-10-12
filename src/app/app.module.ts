@@ -9,6 +9,7 @@ import { LeftComponent } from './left/left.component';
 import { RightComponent } from './right/right.component';
 import { CenterComponent } from './center/center.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginseiteComponent } from './loginseite/loginseite.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     LeftComponent,
     RightComponent,
     CenterComponent,
-    FooterComponent
+    FooterComponent,
+    LoginseiteComponent
   ],
   imports: [
     BrowserModule,

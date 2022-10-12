@@ -1,5 +1,5 @@
 #title {
-  background-color: antiquewhite;
+  background: rgba(217, 217, 217, 0.6);
   text-align: center;
   width: 92%;
 }
@@ -7,16 +7,16 @@
   display: flex;
 }
 #image {
-  background-color: antiquewhite;
+  background: rgba(217, 217, 217, 0.6);
 }
 #image_container {
-  background-color: antiquewhite;
+  background: rgba(217, 217, 217, 0.6);
   width: 4%;
   padding-top: 0.5%;
   padding-left: 1%;
 }
 #login_icon {
-  background-color: antiquewhite;
+  background: rgba(217, 217, 217, 0.6);
   width: 4%;
   padding-top: 0.5%;
   padding-left: 2%;
