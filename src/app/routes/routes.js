@@ -18,13 +18,38 @@ router.get('/allFigures', async(req, res) => {
 router.post('/newFigure', async(req, res) => {
   const newFigure = new Figure({
     name: req.body.name,
-    artikelNummer: req.body.artikelNummer,
-    // purchasePrice: String,
-   // salePrice: String,
+    articleNumber: req.body.articleNumber,
+    purchasePrice: req.body.purchasePrice,
+    salePrice: req.body.salePrice,
   })
   await newFigure.save();
   res.send(newFigure);
 });
+
+// // get figure id
+// router.get('/:id', async(req, res) => {
+//   try {
+//     const figure = await Figure.findOne({ _id: req.params.id });
+//     console.log(req.params);
+//     res.send(figure);
+//   } catch {
+//     res.status(404);
+//     res.send({
+//       error: "artikel does not exist!"
+//     });
+//   }
+// });
+//
+// //delete Figure
+// router.delete ('/figures/:id', async (req, res) =>{
+//   try {
+//     await Figure.deleteOne({ _id: req.params.id })
+//     res.status(204).send()
+//   } catch {
+//     res.status(404)
+//     res.send({ error: "artikel does not exist!" })
+//   }
+// })
 
 // get all Sets
 router.get('/allSets', async(req, res) => {
@@ -36,9 +61,9 @@ router.get('/allSets', async(req, res) => {
 router.post('/newSet', async(req, res) => {
   const newSet = new Set({
     name: req.body.name,
-    artikelNummer: req.body.artikelNummer,
-    // purchasePrice: String,
-    // salePrice: String,
+    articleNumber: req.body.articleNumber,
+    purchasePrice: req.body.purchasePrice,
+    salePrice: req.body.salePrice,
   })
   await newSet.save();
   res.send(newSet);
