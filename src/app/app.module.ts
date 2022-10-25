@@ -10,6 +10,8 @@ import { RightComponent } from './right/right.component';
 import { CenterComponent } from './center/center.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { AllFiguresComponent } from './all-figures/all-figures.component';
+import { AllSetsComponent } from './all-sets/all-sets.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { LoginComponent } from './login/login.component';
     RightComponent,
     CenterComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    AllFiguresComponent,
+    AllSetsComponent
   ],
   imports: [
     BrowserModule,

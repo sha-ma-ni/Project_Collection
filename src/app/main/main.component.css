@@ -1,11 +1,10 @@
+#header{
+  margin-bottom: 40px;
+}
 #main {
   //background-color: rgb(110, 243, 188);
   padding: 1%;
-  height: 624px;
-
-
-
-
+  height: 800px;
 }
 
 #row {
