@@ -4,6 +4,8 @@ import {MainComponent} from "./main/main.component";
 import {LoginComponent} from "./login/login.component";
 import {AllFiguresComponent} from "./all-figures/all-figures.component";
 import {AllSetsComponent} from "./all-sets/all-sets.component";
+import {CreatfigureComponent} from "./creatfigure/creatfigure.component";
+import {CreatsetComponent} from "./creatset/creatset.component";
 
 
 const routes: Routes = [
@@ -22,6 +24,14 @@ const routes: Routes = [
   {
     path: "allsets",
     component: AllSetsComponent
+  },
+  {
+    path: "creatfigure",
+    component: CreatfigureComponent
+  },
+  {
+    path: "creatset",
+    component: CreatsetComponent
   }
 ];
 

@@ -8,3 +8,10 @@ const figureSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Figure', figureSchema);
+
+
+// name: String,
+//   articleNumber: String,
+//   purchasePrice: Float,
+//   salePrice: Float,
+//   purchaseDatum: Date
