@@ -3,5 +3,5 @@ export interface Figure {
   articleNumber: String,
   purchasePrice: String,
   salePrice: String,
-  purchaseDatum: Date
+  // purchaseDatum: Date
 }
