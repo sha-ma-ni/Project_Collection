@@ -16,6 +16,7 @@ import { CreatfigureComponent } from './creatfigure/creatfigure.component';
 import { CreatsetComponent } from './creatset/creatset.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { CreatsetComponent } from './creatset/creatset.component';
     AllFiguresComponent,
     AllSetsComponent,
     CreatfigureComponent,
-    CreatsetComponent
+    CreatsetComponent,
+
   ],
   imports: [
     BrowserModule,

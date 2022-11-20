@@ -2,9 +2,8 @@
   margin-bottom: 40px;
 }
 #main {
-  //background-color: rgb(110, 243, 188);
-  padding: 1%;
-  height: 800px;
+  padding: 0%;
+  height: 95.8vh;
 }
 
 #row {
@@ -14,7 +13,7 @@
   float: left;
   position: absolute;
   width: 30%;
-  height: 600px;
+  height: 80vh;
   left: 2%;
   border-radius: 5px;
 
@@ -22,7 +21,7 @@
 #center {
   position: absolute;
   width: 30%;
-  height: 600px;
+  height: 80vh;
   left: 35%;
   border-radius: 5px;
 }
@@ -30,11 +29,11 @@
 #right {
   position: absolute;
   width: 30%;
-  height: 600px;
+  height: 80vh;
   left: 68%;
   border-radius: 5px;
   }
 
 #left, #center, #right{
-  box-shadow: 5px 5px 10px 6px grey;
+  box-shadow: 1px 1px 3px 2px dimgray;
 }
